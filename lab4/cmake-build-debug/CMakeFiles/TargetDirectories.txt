@@ -1,0 +1,3 @@
+/home/abobus/CLionProjects/unhgjg/cmake-build-debug/CMakeFiles/unhgjg.dir
+/home/abobus/CLionProjects/unhgjg/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/abobus/CLionProjects/unhgjg/cmake-build-debug/CMakeFiles/rebuild_cache.dir
