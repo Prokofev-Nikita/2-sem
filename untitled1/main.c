@@ -8,12 +8,12 @@
     int main(){
     printf("Write name of the previous file\n");
     char name[SIZE_FILE_NAME];
-        scanf("%s",&name);
+        scanf("%s",name);
    BMPFile* bmpFile = loadBMPFile(name);
    printBMPInfo(bmpFile);
    printf("Write name of the new file\n");
    char newName[SIZE_FILE_NAME];
-   scanf("%s",&newName);
+   scanf("%s",newName);
    FILE* NewFile = fopen(newName,"wb");
    int type = 2;
    printf("Choose functions\n");
