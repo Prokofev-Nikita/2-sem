@@ -1,0 +1,39 @@
+﻿1: Is it related to programming?
+2: Does it involve web development?
+4: Is it front-end development?
+8: Do they primarily work with HTML, CSS, and JavaScript?
+16: null
+17: null
+9: Backend dev?
+18: null
+19: null
+5: swift dev?
+10: kotlin dev??
+20: null
+21: null
+11: Does it involve videogames?
+22: Game developer
+44: null
+45: null
+23: kotlin dev?
+46: null
+47: null
+3: Is it related to data management?
+6: Does it involve databases?
+12: Is it a database administrator role?
+24: null
+25: null
+13: AI?
+26: Prompt engineer
+52: null
+53: null
+27: Is it a data engineer role focusing on big data technologies like Hadoop or Spark?
+54: null
+55: null
+7: Is it about data analysis?
+14: Is it a data analyst role that works with SQL and visualization tools like Tableau or PowerBI?
+28: null
+29: null
+15: Is it a data scientist role involving machine learning and advanced statistical analysis?
+30: null
+31: null

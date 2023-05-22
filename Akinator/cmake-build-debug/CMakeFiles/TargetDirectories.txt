@@ -1,0 +1,3 @@
+/home/abobus/CLionProjects/Akinator/cmake-build-debug/CMakeFiles/Akinator.dir
+/home/abobus/CLionProjects/Akinator/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/abobus/CLionProjects/Akinator/cmake-build-debug/CMakeFiles/rebuild_cache.dir
