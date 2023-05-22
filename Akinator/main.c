@@ -10,7 +10,7 @@ typedef struct Node {
     struct Node *right;
 } Node;
 
-Node* createNode(char* value){
+Node* createNode(const char* value){
     Node* newNode = (Node*)malloc(sizeof(Node));
     newNode->data = strdup(value);
     newNode->left = NULL;
@@ -51,16 +51,6 @@ void freeTree(Node *node) {
     free(node);
 }
 
-/*char* userAnswer(){
-    char answer[SIZE_OF_ANSWER];
-    while (scanf("%s",answer) != 1 || strcmp("да",answer) != 0 || strcmp("Да",answer) != 0 || strcmp("ДA",answer) != 0 || strcmp("нет",answer) != 0 || strcmp("Нет",answer) != 0){
-        printf("Напишите либо да,либо нет!\n");
-        int ch = 0;
-        while ((ch = getchar()) != EOF && ch != '\n');
-    }
-    return answer;
-}
-*/
 void game(Node* root,FILE* fp) {
     char* answer = (char*)malloc(3);
     while (1) {
