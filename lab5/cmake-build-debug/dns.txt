@@ -5,7 +5,6 @@ bilibili.com IN A 213.76.119.34/12
 facebook.com IN A 244.71.35.201/24
 twitter.com IN A 133.207.47.36/16
 zhihu.com IN A 233.116.27.140/2
-wikipedia.org IN A 250.41.126.99/4
 google.com IN A 180.8.245.119/24
 amazon.com IN A 174.161.162.57/8
 instagram.com IN A 78.75.45.74/16
