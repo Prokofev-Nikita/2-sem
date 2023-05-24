@@ -11,6 +11,7 @@
 #define  MAX_SIZE_OF_IP 19
 #define  MAX_SIZE_OF_MASK 32
 #define  MAX_SIZE_OF_CELL_IP 255
+#define SIZE_OF_CACHE 6
 
 Node* createNode(char *key, char *value) {
     Node* node = (Node*)malloc(sizeof(Node));
@@ -30,7 +31,7 @@ LRUCache* createCache(int capacity) {
 }
 
 int hashFunction(const char* key) {
-    return (*key) % 6;
+    return (*key) % SIZE_OF_CACHE;
 }
 
 void addToHead(LRUCache* cache, Node* node) {
